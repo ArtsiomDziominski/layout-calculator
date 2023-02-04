@@ -91,7 +91,7 @@ body {
         align-items: center;
 
         &:hover {
-          background-color: lighten($dark, 6%);;
+          background-color: lighten($dark, 6%);
         }
       }
 
@@ -101,10 +101,18 @@ body {
 
       .symbols {
         background-color: $purple-dark;
+
+        &:hover {
+          background-color: lighten($purple-dark, 6%);
+        }
       }
 
       .symbol-equals {
         background-color: $purple;
+
+        &:hover {
+          background-color: lighten($purple, 6%);
+        }
       }
 
       svg {
